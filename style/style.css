@@ -101,7 +101,7 @@ main {
 }
 
 .flower {
-    width: 400px;
+    width: 380px;
     height: 450px;
     border-radius: 300px 300px 0px 0px;
 }
@@ -137,4 +137,61 @@ main {
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: 30px;
+}
+
+/* Extra Meaningful Section */
+.find-gift {
+    margin-top: 200px;
+}
+
+.gift-content {
+    max-width: 1200px;
+    height: 400px;
+    background-color: #e554731a;
+    display: flex;
+    margin: auto;
+}
+
+.solid-part {
+    width: 800px;
+    height: 400px;
+}
+
+.solid-part-title {
+    padding: 100px 0px 20px 100px;
+    font-size: 65px;
+}
+
+.b {
+    color: #E55473;
+}
+
+.solid-part p {
+    width: 550px;
+    padding-left: 100px;
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.img-part {
+    width: 400px;
+    height: 400px;
+    background-image: url('../images/img-part.jpg');
+    background-size: cover;
+}
+
+.img-part h2 {
+    font-size: 35px;
+    width: 300px;
+    padding: 100px 0px 0px 50px;
+}
+
+.btn-gift {
+    margin: 10px 0px 0px 50px;
+    background: none;
+    border: 2px solid #E55473;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
 }
