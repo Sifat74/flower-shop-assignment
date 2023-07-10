@@ -141,7 +141,7 @@ main {
 
 /* Extra Meaningful Section */
 .find-gift {
-    margin-top: 200px;
+    margin: 200px 0px 150px 0px;
 }
 
 .gift-content {
@@ -194,4 +194,33 @@ main {
     padding: 10px 30px;
     font-weight: 700;
     border-radius: 5px;
+}
+
+/* Support Section Styles */
+.support-section {
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 8px;
+    background: #2727270d;
+}
+
+.support-section-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 170px;
+}
+
+.support {
+    width: 250px;
+
+}
+
+.support img {
+    padding: 10px 85px;
+    height: 80px;
+    width: 80px;
+}
+
+.support p {
+    text-align: center;
 }
