@@ -17,6 +17,13 @@ body {
     padding: 20px 43px;
 }
 
+.title-primary {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
 /* Header section styles */
 header {
     width: 100%;
@@ -57,4 +64,29 @@ header {
     margin-top: 50px;
     display: flex;
     position: bottom right;
+}
+
+/* Main Section Styles */
+main {
+    margin-top: 150px;
+}
+
+/* Featured flowers section */
+.featured-flowers {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.featured-heading {
+    width: 600px;
+    margin: 0px 300px;
+}
+
+.featured-heading p {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+    margin: 25px 0px 45px 0px;
 }
