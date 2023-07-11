@@ -224,3 +224,46 @@ main {
 .support p {
     text-align: center;
 }
+
+/* Hot deals styles */
+.hot-deals {
+    width: 100%;
+    border-radius: 8px;
+    background: #e554730d;
+    margin: 150px 0px;
+}
+
+.hot-deals-content {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.hot-deals-texts {
+    width: 600px;
+    padding: 200px 0px;
+}
+
+.hot-deals-texts p {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px 30px 0px;
+}
+
+.hot-deals-texts button {
+    display: block;
+    margin: auto;
+}
+
+.hot-deals-img {
+    width: 400px;
+}
+
+.hot-deals-img img {
+    height: 380px;
+    width: 280px;
+    padding: 100px 0px 100px 120px;
+}
